@@ -1,6 +1,7 @@
 # escape=`
 FROM microsoft/dotnet-framework
 
+LABEL Author Anton Herzog
 
 # Restore the default Windows shell for correct batch processing below.
 SHELL ["cmd", "/S", "/C"]
